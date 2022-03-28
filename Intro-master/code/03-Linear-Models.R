@@ -8,7 +8,7 @@ crime <- read.csv("data/crime.csv")
 
 # Estimating a function
 
-mod <- lm(tc2009 ~ low, data = crime)
+mod <- lm(tc2009 ~ low, data = crime) #linear regression model
 
 tc2009 ~ low
 class(tc2009 ~ low)
